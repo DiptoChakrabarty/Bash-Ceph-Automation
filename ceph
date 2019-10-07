@@ -1,0 +1,25 @@
+[mons]
+node1
+node2
+node3
+
+
+[mgrs]
+node1
+node2
+node3
+
+[osds]
+node1
+node2
+node3
+
+[clients]
+client   ansible_user=root      ansible_password=redhat
+
+[mdss]
+node2
+
+
+[rgws]
+node1
