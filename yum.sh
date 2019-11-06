@@ -8,4 +8,5 @@ done
 
 scp /etc/yum.repos.d/ceph.repo  client:/etc/yum.repos.d/ceph.repo
 scp  /etc/hosts    client:/etc/hosts
+iptables -F
 
